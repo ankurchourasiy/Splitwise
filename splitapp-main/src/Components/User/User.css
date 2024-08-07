@@ -1,0 +1,66 @@
+/* User.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 0;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.user-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+  border: 5px solid #4a90e2;
+}
+
+.user-details {
+  flex: 1;
+}
+
+.user-field {
+  margin-bottom: 20px;
+}
+
+.user-field label {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.user-field p {
+  font-size: 16px;
+  color: #666666;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .user-profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-photo img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .user-details {
+    text-align: center;
+  }
+}

@@ -1,0 +1,61 @@
+/* RecentActivity.css */
+
+.recent-activity-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .recent-activity-title {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .recent-expense {
+    background-color: #ffffff;
+    border-left: 4px solid #007bff;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .recent-expense:hover {
+    transform: translateY(-5px);
+  }
+  
+  .expense-details {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .expense-amount {
+    font-weight: bold;
+    color: #dc3545;
+  }
+  
+  .expense-category {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .expense-notes {
+    font-style: italic;
+    color: #6c757d;
+  }
+  
+  .no-expenses-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6c757d;
+    padding: 10px;
+  }
+  

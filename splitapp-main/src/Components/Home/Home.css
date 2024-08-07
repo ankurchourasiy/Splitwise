@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: #F6F5F2;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 0px;
+  background-color: #F6F5F2;
+  position: relative;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container > img {
+  width: 400px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.admin-title {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.user-actions {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+button {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  background-color: #65cbdd; /* Color for both buttons */
+  color: white;
+  cursor: pointer;
+  margin-right: 20px; /* Space from user image */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d58f9b; /* Darker shade for hover effect */
+}
+
+.admin-subtitle {
+  font-size: 40px;
+  margin-left:20px;
+  margin-bottom: 22px;
+}
+
+.admin-subtext {
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.admin-nav {
+  padding: 20px;
+  display: flex;
+  gap: 20px; /* Space between buttons */
+}
+
+.admin-main {
+  flex-grow: 1;
+  padding: 20px;
+}
+.user-actions > button{
+  background-color: #5AB2FF;
+}

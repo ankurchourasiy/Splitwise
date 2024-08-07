@@ -1,0 +1,31 @@
+/* GroupDetail.css */
+.group-detail {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .group-detail h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .expense-table th,
+  .expense-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .expense-table th {
+    background-color: #f2f2f2;
+  }
+  
